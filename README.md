@@ -13,4 +13,4 @@ $ git clone https://github.com/UCMHSProgramming16-17/file-io-zbreit18.git
 $ cd file-io-zbreit18
 $ python3 issMap.py
 ```
-When the code is run, a resizable window will appear with the map. The longitude and latitude data will be kept in the file [iss-location-data.csv](https://github.com/UCMHSProgramming16-17/file-io-zbreit18/blob/master/iss-location-data.csv)
+When the code is run, a resizable window with the map on it will open. The longitude and latitude data recorded while the program is running will be kept in the file `iss-location-data.csv`.
