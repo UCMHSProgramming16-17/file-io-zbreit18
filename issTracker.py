@@ -7,11 +7,9 @@ def getIssStatus():
     r = requests.get(issURL)
     return r.json()
 
-
 def getIssPos(issRequest):
     """Returns a dictionary containing the current lat and long of the ISS given a JSON dictionary"""
     return issRequest['iss_position']
-
 
 def getIssTime(issRequest):
     """Returns the UNIX timestamp of the last ISS measurement"""
